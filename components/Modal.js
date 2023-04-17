@@ -1,0 +1,57 @@
+import React from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { modalActions } from "@/redux/modalSlice";
+import { CloseIcon } from "@/svg";
+import { projectsData } from "./WorksSection";
+
+function Modal() {
+  const { activeModalDataId } = useSelector((state) => state.modal);
+  const dispatch = useDispatch();
+
+  const activeData = activeModalDataId
+    ? projectsData.find((p) => p.id === activeModalDataId)
+    : {};
+
+  return (
+    <div
+      className="backdrop"
+      onClick={() => dispatch(modalActions.closeModal())}
+    >
+      {activeData?.id && (
+        <div className="modal">
+          <CloseIcon
+            className="modal-close-icon"
+            onClick={() => dispatch(modalActions.closeModal())}
+          />
+          <img
+            className="modal-img"
+            src={activeData.image}
+            alt="Modal desktop"
+          />
+
+          <h2>{activeData.name}</h2>
+          <div className="button-container">
+            <a href={activeData.link} className="link-one">
+              See Live <img src="./img/modal-live-icon.svg" alt="Modal icon" />
+            </a>
+            <a target="__blank" href={activeData.linkSource}>
+              Source Code{" "}
+              <img src="./img/modal-gihub-icon.svg" alt="Modal icon" />{" "}
+            </a>
+          </div>
+
+          <ul className="modal-skills">
+            {activeData.technologies.map((item) => (
+              <li key={item} className="skill-tag skill-tag--grey">
+                {item}
+              </li>
+            ))}
+          </ul>
+          <p className="modal-description">{activeData.description}</p>
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default Modal;

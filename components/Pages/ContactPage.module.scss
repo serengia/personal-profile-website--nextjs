@@ -1,0 +1,14 @@
+.contact-page {
+  background-color: #202453;
+  color: #6d9aa8;
+  .content {
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      font-size: 4rem;
+    }
+  }
+}
