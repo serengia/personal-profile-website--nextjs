@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import Work from "./Work";
+import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 
 export const projectsData = [
   {
@@ -70,6 +71,12 @@ export const projectsData = [
 ];
 
 function WorksSection() {
+  const [showLess, setShowLess] = useState(true);
+
+  let filteredData = projectsData;
+  if (showLess) {
+    filteredData = filteredData.slice(0, 6);
+  }
   return (
     <section className="section-works" id="portfolio">
       <div className="works-header row">
@@ -78,9 +85,19 @@ function WorksSection() {
       </div>
 
       <div className="works-container row">
-        {projectsData.map((project) => (
+        {filteredData.map((project) => (
           <Work key={project.id} data={project} />
         ))}
+      </div>
+      <div className="works-load-more row">
+        <button onClick={() => setShowLess((prev) => !prev)} className="btn">
+          {showLess ? (
+            <AiOutlinePlus className="icon" />
+          ) : (
+            <AiOutlineMinus className="icon" />
+          )}
+          {showLess ? "Load more projects" : "Load less projects"}
+        </button>
       </div>
     </section>
   );

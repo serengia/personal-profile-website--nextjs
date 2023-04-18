@@ -32,7 +32,8 @@ function Modal() {
           <h2>{activeData.name}</h2>
           <div className="button-container">
             <a href={activeData.link} className="link-one">
-              See Live <img src="./img/modal-live-icon.svg" alt="Modal icon" />
+              Live Version{" "}
+              <img src="./img/modal-live-icon.svg" alt="Modal icon" />
             </a>
             <a target="__blank" href={activeData.linkSource}>
               Source Code{" "}

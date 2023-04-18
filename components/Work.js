@@ -29,7 +29,7 @@ function Work({ data }) {
           onClick={openPopup}
           className="button button-primary"
         >
-          See projects
+          View Details
         </button>
       </div>
     </div>
