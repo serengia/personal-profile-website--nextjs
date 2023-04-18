@@ -19,8 +19,7 @@ export const projectsData = [
     technologies: ["Next Js", "HTML", "CSS", "Javascript"],
     image: "./img/projects/summit.png",
     link: "https://serecode-entrepreneurs-summit-nextjs.vercel.app/",
-    linkSource:
-      "https://github.com/serengia/Entrepreneurs-Forum-Summit---Capstone-Project",
+    linkSource: "https://github.com/serengia/entrepreneurs-summit--nextjs",
     description: `This project is done using HTML, SCSS and Javascript. The project is also set up with html-css and javascript linters.`,
   },
   {
@@ -67,6 +66,15 @@ export const projectsData = [
     link: "https://serecode-react-todo.netlify.app/",
     linkSource: "https://github.com/serengia/react-todo",
     description: `React todo list application. You can add todo, delete and update. Your todo list will be persisted in your local storage.`,
+  },
+  {
+    id: "8",
+    name: "Personal profile website",
+    technologies: ["Next Js", "React", "Javascript", "SASS"],
+    image: "./img/projects/profile.png",
+    link: "https://serecode-personal-profile-website.vercel.app/",
+    linkSource: "https://github.com/serengia/personal-profile-website--nextjs",
+    description: `Personal profile website.`,
   },
 ];
 

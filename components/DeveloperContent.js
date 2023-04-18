@@ -14,7 +14,7 @@ export default function DeveloperContent() {
       <p>
         In my current job, I am in charge of building production-ready web
         applications for SMEs. I also manage the entire Software Development
-        Process from Needs Analysis, Project Planning, Prototyping, Coding,
+        Life-Cycle from Needs Analysis, Project Planning, Prototyping, Coding,
         Testing, Deployment, and Maintenance/Continuous Integration.
       </p>
       <p>
