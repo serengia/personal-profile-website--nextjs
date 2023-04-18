@@ -62,6 +62,12 @@ export default function Contact() {
         if (localStorage.getItem("userFormData")) {
           localStorage.removeItem("userFormData");
         }
+
+        // Clear inputs
+        event.target.name.value = "";
+        event.target.email.value = "";
+        event.target.message.value = "";
+
         return;
       }
       throw new Error("Oops! There was a problem submitting your form");

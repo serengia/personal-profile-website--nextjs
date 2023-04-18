@@ -16,11 +16,11 @@ function Footer() {
           <a target="_blank" href="https://twitter.com/JamesSerengia">
             <img src="./img/twitter.svg" type="image/svg+xml"></img>
           </a>
-          <a target="_blank" href="/">
+          <a target="_blank" href="https://medium.com/@jamesserengia">
             <img src="./img/medium.svg" type="image/svg+xml"></img>
           </a>
 
-          <a href="#">
+          <a href="https://wellfound.com/u/james-serengia">
             <img src="./img/angellist.svg" type="image/svg+xml"></img>
           </a>
         </div>
