@@ -15,7 +15,7 @@ function Modal() {
   return (
     <div
       className="backdrop"
-      onClick={() => dispatch(modalActions.closeModal())}
+      // onClick={(e) => dispatch(modalActions.closeModal())}
     >
       {activeData?.id && (
         <div className="modal">
@@ -31,11 +31,11 @@ function Modal() {
 
           <h2>{activeData.name}</h2>
           <div className="button-container">
-            <a href={activeData.link} className="link-one">
+            <a href={activeData.link} target="__blank" className="link-one">
               Live Version{" "}
               <img src="./img/modal-live-icon.svg" alt="Modal icon" />
             </a>
-            <a target="__blank" href={activeData.linkSource}>
+            <a href={activeData.linkSource} target="__blank">
               Source Code{" "}
               <img src="./img/modal-gihub-icon.svg" alt="Modal icon" />{" "}
             </a>
