@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import { CloseMenuIcon, OpenMenuIcon } from "@/svg";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const router = useRouter();
   const openMenuHandler = () => {
     setMenuOpen(true);
   };
@@ -38,7 +40,11 @@ function Header() {
             <li className="menu-item">
               <Link
                 href={"/"}
-                className="menu-link"
+                className={
+                  router.pathname === "/"
+                    ? "active-menu-link menu-link"
+                    : "menu-link"
+                }
                 onClick={() => setMenuOpen(false)}
               >
                 Home
@@ -47,7 +53,11 @@ function Header() {
             <li className="menu-item">
               <Link
                 href={"/about"}
-                className="menu-link"
+                className={
+                  router.pathname === "/about"
+                    ? "active-menu-link menu-link"
+                    : "menu-link"
+                }
                 onClick={() => setMenuOpen(false)}
               >
                 About
@@ -56,7 +66,11 @@ function Header() {
             <li className="menu-item">
               <Link
                 href={"/contact"}
-                className="menu-link"
+                className={
+                  router.pathname === "/contact"
+                    ? "active-menu-link menu-link"
+                    : "menu-link"
+                }
                 onClick={() => setMenuOpen(false)}
               >
                 Contact
