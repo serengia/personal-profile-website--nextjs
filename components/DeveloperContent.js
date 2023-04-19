@@ -14,8 +14,8 @@ export default function DeveloperContent() {
       <p>
         In my current job, I am in charge of building production-ready web
         applications for SMEs. I also manage the entire Software Development
-        Life-Cycle from Needs Analysis, Project Planning, Prototyping, Coding,
-        Testing, Deployment, and Maintenance/Continuous Integration.
+        Lifecycle (SDLC) from Needs Analysis, Project Planning, Prototyping,
+        Coding, Testing, Deployment, and Maintenance/Continuous Integration.
       </p>
       <p>
         Through my day-to-day job, I&apos;ve developed extensive knowledge in
@@ -38,6 +38,10 @@ export default function DeveloperContent() {
           Professional: Remote Pair-Programming and collaboration, code review,
           mentoring, and effective communication skills across different
           cultures
+        </li>
+        <li>
+          Coding best practices and principles: DRY, KISS, YAGNI & SOLID
+          principles
         </li>
       </ul>
       <p>
