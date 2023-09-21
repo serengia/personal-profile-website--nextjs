@@ -17,6 +17,7 @@ function Modal() {
         color: "currentColor",
         cursor: "not-allowed",
         opacity: 0.8,
+        pointerEvents: "none",
       }
     : {};
 

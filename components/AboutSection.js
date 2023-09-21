@@ -32,9 +32,12 @@ function AboutSection() {
           <div className="details-container">
             <h3>Languages</h3>
             <ul className="skills">
+              <li className="skill-tag skill-tag--white">Node Js</li>
+              <li className="skill-tag skill-tag--white">Next Js</li>
               <li className="skill-tag skill-tag--white">Ruby</li>
               <li className="skill-tag skill-tag--white">HTML</li>
               <li className="skill-tag skill-tag--white">CSS</li>
+              <li className="skill-tag skill-tag--white">SCSS</li>
               <li className="skill-tag skill-tag--white">Javascript</li>
             </ul>
           </div>
@@ -49,6 +52,8 @@ function AboutSection() {
             <h3>Frameworks</h3>
             <ul className="skills">
               <li className="skill-tag skill-tag--white">React</li>
+              <li className="skill-tag skill-tag--white">React Native</li>
+              <li className="skill-tag skill-tag--white">Next Js</li>
               <li className="skill-tag skill-tag--white">Bootstrap</li>
               <li className="skill-tag skill-tag--white">Ruby on Rails</li>
               <li className="skill-tag skill-tag--white">Selenium</li>
@@ -66,7 +71,7 @@ function AboutSection() {
             <ul className="skills">
               <li className="skill-tag skill-tag--white">Code kit</li>
               <li className="skill-tag skill-tag--white">Github</li>
-              <li className="skill-tag skill-tag--white">Code-pen</li>
+              <li className="skill-tag skill-tag--white">Digital Ocean</li>
               <li className="skill-tag skill-tag--white">Gitlab</li>
               <li className="skill-tag skill-tag--white">Terminal</li>
             </ul>
