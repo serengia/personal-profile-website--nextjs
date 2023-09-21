@@ -25,9 +25,10 @@ function HeroSection() {
           </h2>
         </div>
         <p className="description-text">
-          I can help you build a product, feature or website. Look through some
-          of my work and experience! If you like what you see and have a project
-          you need coded, don’t hesitate to contact me.
+          I am a Software Engineer with 6+ years of experience. With my wide
+          experience, I can help you build a product, feature or website. Look
+          through some of my work and experience! If you like what you see and
+          have a project you need coded, don’t hesitate to contact me.
         </p>
         <ul className="social-icons">
           <li>

@@ -12,6 +12,14 @@ function Modal() {
     ? projectsData.find((p) => p.id === activeModalDataId)
     : {};
 
+  const sourceCodeLinkStyles = activeData.private
+    ? {
+        color: "currentColor",
+        cursor: "not-allowed",
+        opacity: 0.8,
+      }
+    : {};
+
   return (
     <div
       className="backdrop"
@@ -35,8 +43,12 @@ function Modal() {
               Live Version{" "}
               <img src="./img/modal-live-icon.svg" alt="Modal icon" />
             </a>
-            <a href={activeData.linkSource} target="__blank">
-              Source Code{" "}
+            <a
+              href={activeData.linkSource}
+              target="__blank"
+              style={sourceCodeLinkStyles}
+            >
+              {`${activeData.private ? "Source Code(Private)" : "Source Code"}`}
               <img src="./img/modal-gihub-icon.svg" alt="Modal icon" />{" "}
             </a>
           </div>

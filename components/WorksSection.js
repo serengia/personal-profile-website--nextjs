@@ -23,6 +23,27 @@ export const projectsData = [
     description: `This project is done using HTML, SCSS and Javascript. The project is also set up with html-css and javascript linters.`,
   },
   {
+    id: "22",
+    name: "Online Business Platform",
+    technologies: ["NodeJs", "Express", "MongoDB", "Next Js", "SCSS"],
+    image: "./img/projects/papwave.png",
+    link: "https://papwave.com",
+    linkSource: "https://github.com/serengia",
+    description: `This is an online business platform that connects service seekers with different vendors. Think of it as Uber for businesses.`,
+    private: true,
+  },
+  {
+    id: "21",
+    name: "Organization Web Application",
+    technologies: ["NodeJs", "Express", "MongoDB", "Next Js", "SCSS"],
+    image: "./img/projects/wtc.png",
+    link: "https://wtckenya.org",
+    linkSource: "https://github.com/serengia",
+    description: `Key features for this web app include different user roles e.g. admins, managers, members and general users, events catalog with ability to register or add an event to calendar, ability for logged in users to add items to their favorite lists, among others.`,
+    private: true,
+  },
+
+  {
     id: "3",
     name: "Buklist.com project",
     technologies: ["Node Js", "Express", "Mongo DB", "Next Js"],
