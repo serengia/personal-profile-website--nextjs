@@ -109,7 +109,7 @@ function WorksSection() {
   return (
     <section className="section-works" id="portfolio">
       <div className="works-header row">
-        <h2 className="section-title">My resent works</h2>
+        <h2 className="section-title">My recent works</h2>
         <hr className="text-divider" />
       </div>
 
