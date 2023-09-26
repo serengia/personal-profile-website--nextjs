@@ -23,6 +23,15 @@ export const projectsData = [
     description: `This project is done using HTML, SCSS and Javascript. The project is also set up with html-css and javascript linters.`,
   },
   {
+    id: "3",
+    name: "Buklist.com project",
+    technologies: ["Node Js", "Express", "Mongo DB", "Next Js"],
+    image: "./img/projects/books.png",
+    link: "https://buklist.com",
+    linkSource: "https://github.com/serengia/buklist-open-source-project",
+    description: `Open source project: This platform enables you to manage you reading list with ease and track your progress for free at buklist.com`,
+  },
+  {
     id: "22",
     name: "Online Business Platform",
     technologies: ["NodeJs", "Express", "MongoDB", "Next Js", "SCSS"],
@@ -41,16 +50,6 @@ export const projectsData = [
     linkSource: "https://github.com/serengia",
     description: `Key features for this web app include different user roles e.g. admins, managers, members and general users, events catalog with ability to register or add an event to calendar, ability for logged in users to add items to their favorite lists, among others.`,
     private: true,
-  },
-
-  {
-    id: "3",
-    name: "Buklist.com project",
-    technologies: ["Node Js", "Express", "Mongo DB", "Next Js"],
-    image: "./img/projects/books.png",
-    link: "https://buklist-open-source-project.vercel.app/",
-    linkSource: "https://github.com/serengia/buklist-open-source-project",
-    description: `Open source project: This platform enables you to manage you reading list with ease and track your progress for free at buklist.com`,
   },
   {
     id: "4",
