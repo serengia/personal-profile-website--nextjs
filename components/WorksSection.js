@@ -14,24 +14,6 @@ export const projectsData = [
     description: `I developed this tool you can use to generate tints and shades for your chosen color. Fun fact: This tool has become quite useful and I personally use it almost every day.`,
   },
   {
-    id: "2",
-    name: "Entrepreneurs Summit",
-    technologies: ["Next Js", "HTML", "CSS", "Javascript"],
-    image: "./img/projects/summit.png",
-    link: "https://serecode-entrepreneurs-summit-nextjs.vercel.app/",
-    linkSource: "https://github.com/serengia/entrepreneurs-summit--nextjs",
-    description: `This project is done using HTML, SCSS and Javascript. The project is also set up with html-css and javascript linters.`,
-  },
-  {
-    id: "3",
-    name: "Buklist.com project",
-    technologies: ["Node Js", "Express", "Mongo DB", "Next Js"],
-    image: "./img/projects/books.png",
-    link: "https://buklist.com",
-    linkSource: "https://github.com/serengia/buklist-open-source-project",
-    description: `Open source project: This platform enables you to manage you reading list with ease and track your progress for free at buklist.com`,
-  },
-  {
     id: "22",
     name: "Online Business Platform",
     technologies: ["NodeJs", "Express", "MongoDB", "Next Js", "SCSS"],
@@ -51,6 +33,17 @@ export const projectsData = [
     description: `Key features for this web app include different user roles e.g. admins, managers, members and general users, events catalog with ability to register or add an event to calendar, ability for logged in users to add items to their favorite lists, among others.`,
     private: true,
   },
+
+  {
+    id: "2",
+    name: "Entrepreneurs Summit",
+    technologies: ["Next Js", "HTML", "CSS", "Javascript"],
+    image: "./img/projects/summit.png",
+    link: "https://serecode-entrepreneurs-summit-nextjs.vercel.app/",
+    linkSource: "https://github.com/serengia/entrepreneurs-summit--nextjs",
+    description: `This project is done using HTML, SCSS and Javascript. The project is also set up with html-css and javascript linters.`,
+  },
+
   {
     id: "4",
     name: "Covid-19 data App",
@@ -68,6 +61,15 @@ export const projectsData = [
     link: "https://serengia-math-magician.netlify.app/",
     linkSource: "https://github.com/serengia/math-magician-project--react",
     description: `Math lovers App: This is a single page react application that uses key react features such as components, props, and routing.`,
+  },
+  {
+    id: "3",
+    name: "Buklist.com project",
+    technologies: ["Node Js", "Express", "Mongo DB", "Next Js"],
+    image: "./img/projects/books.png",
+    link: "https://buklist.com",
+    linkSource: "https://github.com/serengia/buklist-open-source-project",
+    description: `Open source project: This platform enables you to manage you reading list with ease and track your progress for free at buklist.com`,
   },
   {
     id: "6",
