@@ -1,6 +1,6 @@
 # Personal profile website -- with NextJs
 
-Personal profile with NextJs
+Personal profile web app. The web app contains a list of my other projects that you can check out.
 
 ## Built With
 
