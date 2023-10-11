@@ -16,7 +16,7 @@ npm install
 
 ## Live Demo
 
-[Live Demo Link](https://serecode-personal-profile-website.vercel.app/)
+[Live Demo Link](https://serecode.com)
 
 ## Authors
 
