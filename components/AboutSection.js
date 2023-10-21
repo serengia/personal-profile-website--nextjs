@@ -16,7 +16,7 @@ function AboutSection() {
           projects with diverse specifications.
         </p>
         <button
-          className="button button-primary m-t-s m-b-xl"
+          className="button button-secondary m-t-s m-b-xl"
           onClick={() => router.push("/about")}
         >
           Learn More

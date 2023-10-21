@@ -7,8 +7,10 @@ import {
   ScrollToBottomIcon,
   TwitterIcon,
 } from "@/svg";
+import { useRouter } from "next/router";
 
 function HeroSection() {
+  const router = useRouter();
   const scrollToRef = useRef();
   const scrollHandler = () => {
     scrollToRef.current.scrollIntoView({ behavior: "smooth" });
@@ -31,6 +33,14 @@ function HeroSection() {
           what you see and have a project you need coded, don’t hesitate to
           contact me.
         </p>
+        <div className="hero-btn-wrapper">
+          <button
+            className="button button-primary m-t-s m-b-xl"
+            onClick={() => router.push("/about")}
+          >
+            Learn More About Me
+          </button>
+        </div>
         <ul className="social-icons">
           <li>
             <a

@@ -1,7 +1,9 @@
 /* Variables */
 :root {
   --color-primary: #172b4d;
+  --color-primary-dark: #102445;
   --color-secondary: #36b37e;
+  --color-secondary-dark: #26865e;
   --color-secondary-light: #c5e9da;
   --color-grey-1: #fefefe;
   --color-grey-2: #ebf0ee;
@@ -366,12 +368,27 @@ body {
 }
 
 .button-primary {
-  background-color: var(--color-secondary);
+  background-color: var(--color-primary);
   transition: all 0.3s ease;
 }
 
 .button-primary:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.button-secondary {
+  background-color: var(--color-secondary);
+  transition: all 0.3s ease;
+}
+
+.button-secondary:hover {
   background-color: #49b889;
+}
+
+.hero-btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .social-icons {
