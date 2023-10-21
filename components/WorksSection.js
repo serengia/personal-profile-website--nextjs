@@ -54,15 +54,6 @@ export const projectsData = [
     description: `This Web App helps you find and filter Covid-10 data by continents and countries. It utilizes the Covid 19 data APA by Open Disease Data API`,
   },
   {
-    id: "5",
-    name: "Math lovers App",
-    technologies: ["React", "HTML", "CSS", "Javascript"],
-    image: "./img/projects/math.png",
-    link: "https://serengia-math-magician.netlify.app/",
-    linkSource: "https://github.com/serengia/math-magician-project--react",
-    description: `Math lovers App: This is a single page react application that uses key react features such as components, props, and routing.`,
-  },
-  {
     id: "3",
     name: "Buklist.com project",
     technologies: ["Node Js", "Express", "Mongo DB", "Next Js"],
@@ -71,6 +62,16 @@ export const projectsData = [
     linkSource: "https://github.com/serengia/buklist-open-source-project",
     description: `Open source project: This platform enables you to manage you reading list with ease and track your progress for free at buklist.com`,
   },
+  {
+    id: "5",
+    name: "Math lovers App",
+    technologies: ["React", "HTML", "CSS", "Javascript"],
+    image: "./img/projects/math.png",
+    link: "https://serengia-math-magician.netlify.app/",
+    linkSource: "https://github.com/serengia/math-magician-project--react",
+    description: `Math lovers App: This is a single page react application that uses key react features such as components, props, and routing.`,
+  },
+
   {
     id: "6",
     name: "Food App",
