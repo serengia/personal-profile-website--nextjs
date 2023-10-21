@@ -9,10 +9,10 @@ function AboutSection() {
       <div className="about-header row">
         <h2 className="section-title m-b-l">About Me</h2>
         <p className="description-text m-b-l">
-          I am a Senior Software Engineer with 6+ years of experience. After
-          working in the software industry for three years, I gained a lot of
-          experience with which I founded my own software development company.
-          This experience taught me firsthand how to manage big software
+          After working as a developer for three years, I gained substantial
+          experience with which I founded my own Software Development Company
+          (sawabox.com) that focused on offering software solutions for SMEs.
+          This venture gave me first-hand experience in managing large software
           projects with diverse specifications.
         </p>
         <button
