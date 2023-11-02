@@ -1,11 +1,11 @@
 import React from "react";
-import Contact from "./Contact";
+// import Contact from "./Contact";
 
 function Footer() {
   return (
     <footer id="contact">
       <div className="footer-container row">
-        <Contact />
+        {/* <Contact /> */}
         <div className="social-links">
           <a href="https://github.com/serengia">
             <img src="./img/github.svg" type="image/svg+xml"></img>
