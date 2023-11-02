@@ -34,7 +34,7 @@ function HeroSection() {
         </p>
         <div className="hero-btn-wrapper">
           <button
-            className="button button-primary m-t-s m-b-xl"
+            className="button button-primary m-t-s m-b-s"
             onClick={() => router.push("/about")}
           >
             Learn More About Me
