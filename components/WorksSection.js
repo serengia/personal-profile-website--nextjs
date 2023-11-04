@@ -30,7 +30,7 @@ export const projectsData = [
     image: "./img/projects/wtc.png",
     link: "https://wtckenya.org",
     linkSource: "https://github.com/serengia",
-    description: `Key features for this web app include different user roles e.g. admins, managers, members and general users, events catalog with ability to register or add an event to calendar, ability for logged in users to add items to their favorite lists, among others.`,
+    description: `Used by 3,000+ users per week. Key features for this web app include different user roles e.g. admins, managers, members and general users, events catalog with ability to register or add an event to calendar, ability for logged in users to add items to their favorite lists, among others.`,
     private: true,
   },
 
