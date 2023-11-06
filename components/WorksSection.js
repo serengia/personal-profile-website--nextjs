@@ -4,16 +4,6 @@ import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 
 export const projectsData = [
   {
-    id: "1",
-    name: "Tints-Shades Generator",
-    technologies: ["React", "HTML", "CSS", "Javascript"],
-    image: "./img/projects/tints.png",
-    link: "https://serecode-color-generator.netlify.app/",
-    linkSource:
-      "https://github.com/serengia/color-generator-app--tints-and-shades",
-    description: `I developed this tool you can use to generate tints and shades for your chosen color. Fun fact: This tool has become quite useful and I personally use it almost every day.`,
-  },
-  {
     id: "22",
     name: "Online Business Platform",
     technologies: ["NodeJs", "Express", "MongoDB", "Next Js", "SCSS"],
@@ -23,6 +13,17 @@ export const projectsData = [
     description: `This is an online business platform that connects service seekers with different vendors. Think of it as Uber for businesses.`,
     private: true,
   },
+  {
+    id: "1",
+    name: "Tints-Shades Generator",
+    technologies: ["React", "HTML", "CSS", "Javascript"],
+    image: "./img/projects/tints.png",
+    link: "https://serecode-color-generator.netlify.app/",
+    linkSource:
+      "https://github.com/serengia/color-generator-app--tints-and-shades",
+    description: `I developed this tool you can use to generate tints and shades for your chosen color. Fun fact: This tool has become quite useful and I personally use it almost every day.`,
+  },
+
   {
     id: "21",
     name: "Organization Web Application",
