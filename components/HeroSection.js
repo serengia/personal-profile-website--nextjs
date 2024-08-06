@@ -25,12 +25,16 @@ function HeroSection() {
           </h2>
         </div>
         <p className="description-text">
-          I am a Senior Software Engineer with 6+ years of experience. With my
-          wide range of experiences, I would love to help you build your next
-          big software product, feature, web application or a basic website.
-          Look through some of my work and experiences! If you like what you see
-          and have a project you need coded, don&apos;t hesitate to reach
-          out🚀🚀
+          I'm a Senior Full-stack Software Engineer and the founder of Backyard
+          Vendor (backyardvendor.com). Also founder of sawabox.com, a software
+          company that offers software solutions for SMEs.
+        </p>
+        <p className="description-text">
+          With my wide range of experiences, I would love to help you build your
+          next big software product, feature, web application or a basic
+          website. Look through some of my work and experiences! If you like
+          what you see and have a project you need coded, don&apos;t hesitate to
+          reach out🚀🚀
         </p>
         <div className="hero-btn-wrapper">
           <button
