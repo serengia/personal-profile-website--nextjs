@@ -5,6 +5,38 @@ import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 export const projectsData = [
   {
     id: "22",
+    name: "Backyard Vendor",
+    technologies: [
+      "NodeJs",
+      "Express",
+      "MongoDB",
+      "React",
+      "Next Js",
+      "SCSS",
+      "SMP servers, etc",
+    ],
+    image: "./img/projects/bv-header.png",
+    link: "https:www.backyardvendor.com",
+    linkSource: "https://github.com/serengia",
+    description: `Backyard vendor is a local online marketplace that connects 
+    neighbors and allow them to buy and sell pre-love items within their neighborhood. 
+    You can think of it as your local treasure-hunt`,
+    private: true,
+  },
+  {
+    id: "22",
+    name: "RADA365",
+    technologies: ["NodeJs", "Express", "MongoDB", "Next Js", "SCSS"],
+    image: "./img/projects/rada-header.png",
+    link: "https://rada365.com",
+    linkSource: "https://github.com/serengia",
+    description: `RADA365 is a complete event organizing solution that hooks you with Adventures, Experiences and Events, around the clock, 
+    around the year(365), in Kenya. (NOTE: RADA is a kenyan swahili slung for "Whats Up", 
+    also translated to mean, "What's happening around us?" )`,
+    private: true,
+  },
+  {
+    id: "22",
     name: "Online Business Platform",
     technologies: ["NodeJs", "Express", "MongoDB", "Next Js", "SCSS"],
     image: "./img/projects/papwave.png",
