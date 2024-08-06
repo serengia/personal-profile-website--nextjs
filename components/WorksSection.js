@@ -4,7 +4,7 @@ import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 
 export const projectsData = [
   {
-    id: "22",
+    id: "2342",
     name: "Backyard Vendor",
     technologies: [
       "NodeJs",
@@ -24,7 +24,7 @@ export const projectsData = [
     private: true,
   },
   {
-    id: "22",
+    id: "2233",
     name: "RADA365",
     technologies: ["NodeJs", "Express", "MongoDB", "Next Js", "SCSS"],
     image: "./img/projects/rada-header.png",
