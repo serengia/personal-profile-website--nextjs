@@ -19,15 +19,32 @@ function HeroSection() {
     <section className="section-hero">
       <div className="row hero-content">
         <div className="header-text">
-          <h1 className="heading-primary">Hello, I&apos;m James Serengia</h1>
+          <h1 className="heading-primary">My name is James Serengia</h1>
           <h2 className="heading-secondary heading-secondary--green">
             A Full-stack Software Engineer based in Nairobi, Kenya
           </h2>
         </div>
         <p className="description-text">
-          I'm a Senior Full-stack Software Engineer and the founder of Backyard
-          Vendor (backyardvendor.com). Also founder of sawabox.com, a software
-          company that offers software solutions for SMEs.
+          I&apos;m a Senior Full-stack Software Engineer and the founder of
+          Backyard Vendor (
+          <a
+            className="link"
+            href="https://www.backyardvendor.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            backyardvendor.com
+          </a>
+          ). Also founder of{" "}
+          <a
+            className="link"
+            href="http://sawabox.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            sawabox.com
+          </a>
+          , a software company that offers software solutions for SMEs.
         </p>
         <p className="description-text">
           With my wide range of experiences, I would love to help you build your
@@ -36,14 +53,14 @@ function HeroSection() {
           what you see and have a project you need coded, don&apos;t hesitate to
           reach out🚀🚀
         </p>
-        <div className="hero-btn-wrapper">
+        {/* <div className="hero-btn-wrapper">
           <button
             className="button button-primary m-t-s m-b-s"
             onClick={() => router.push("/about")}
           >
             Learn More About Me
           </button>
-        </div>
+        </div> */}
         <ul className="social-icons">
           <li>
             <a
@@ -54,16 +71,7 @@ function HeroSection() {
               <GithubIcon className="social-icon" />
             </a>
           </li>
-          <li>
-            <a
-              target="_blank"
-              href="https://twitter.com/JamesSerengia"
-              className="social-icon"
-              rel="noreferrer"
-            >
-              <TwitterIcon className="social-icon" />
-            </a>
-          </li>
+
           <li>
             <a
               target="_blank"
@@ -76,19 +84,29 @@ function HeroSection() {
           <li>
             <a
               target="_blank"
-              href="https://medium.com/@jamesserengia"
+              href="https://wellfound.com/u/james-serengia"
               rel="noreferrer"
             >
-              <MediumIcon className="social-icon" />
+              <AngleListIcon className="social-icon" />
             </a>
           </li>
           <li>
             <a
               target="_blank"
-              href="https://wellfound.com/u/james-serengia"
+              href="https://twitter.com/JamesSerengia"
+              className="social-icon s-twitter-icon"
               rel="noreferrer"
             >
-              <AngleListIcon className="social-icon" />
+              <TwitterIcon className="social-icon" />
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://medium.com/@jamesserengia"
+              rel="noreferrer"
+            >
+              <MediumIcon className="social-icon" />
             </a>
           </li>
         </ul>

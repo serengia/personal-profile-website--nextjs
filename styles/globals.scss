@@ -320,13 +320,13 @@ body {
 
 .heading-primary {
   color: var(--color-primary);
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   font-weight: 800;
   margin-bottom: 1.6rem;
 }
 
 .heading-secondary {
-  font-size: 2.6rem;
+  font-size: 2.2rem;
   font-weight: 600;
 }
 
@@ -402,7 +402,12 @@ body {
 
 .social-icon {
   fill: #7c889e;
-  font-size: 3.5rem;
+  font-size: 4rem;
+  line-height: 1;
+}
+
+.s-twitter-icon {
+  transform: translateY(-6px);
 }
 
 .social-icon:link,
@@ -422,7 +427,6 @@ body {
   display: flex;
   justify-content: center;
 }
-
 .scroll-icon {
   height: 1.8rem;
   width: 1.8rem;
@@ -776,9 +780,24 @@ form button {
   }
 
   .description-text {
-    font-size: 2.4rem;
-    width: 70%;
+    font-size: 2rem;
+    width: 80%;
     margin: 0 auto;
+
+    .link {
+      text-decoration: none;
+      color: var(--color-secondary);
+      font-weight: 600;
+      transition: all 0.3s;
+
+      &:link,
+      &:active,
+      &:visited,
+      &:hover {
+        color: var(--color-secondary);
+        color: #1e488f;
+      }
+    }
   }
 
   .scroll-btn-container {
