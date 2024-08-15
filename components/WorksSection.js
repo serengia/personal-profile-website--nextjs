@@ -16,7 +16,7 @@ export const projectsData = [
       "SMP servers, etc",
     ],
     image: "./img/projects/bv-header.png",
-    link: "https:www.backyardvendor.com",
+    link: "https://www.backyardvendor.com",
     linkSource: "https://github.com/serengia",
     description: `Backyard vendor is a local online marketplace that connects 
     neighbors and allow them to buy and sell pre-love items within their neighborhood. 
